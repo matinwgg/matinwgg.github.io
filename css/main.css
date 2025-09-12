@@ -561,6 +561,8 @@ dd {
   background-color: #039BE5;
   color: white;
   border: none;
+  border-radius: 2px;
+  max-height: 20px;
 }
 
 /* Close button style */
@@ -618,10 +620,15 @@ code {
   transition: color 0.3s ease;
 }
 
-.view-link:hover {
-  color: #ff6600;        /* Orange on hover */
-  text-decoration: underline;
+.blink-text {
+  color: red;
+  animation: blinker 2s linear infinite;
+  text-decoration: solid;
+  font-size: 1.6rem;
 }
-.view-link:active {
-  color: #cc5200;        /* Darker orange when active */
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
