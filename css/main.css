@@ -611,3 +611,18 @@ code {
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
+
+.view-link {
+  color: #0073e6;       /* Blue link */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600;      /* Make it a bit bold */
+  transition: color 0.3s ease;
+}
+
+.view-link:hover {
+  color: #ff6600;        /* Orange on hover */
+  text-decoration: underline;
+}
+.view-link:active {
+  color: #cc5200;        /* Darker orange when active */
+}
