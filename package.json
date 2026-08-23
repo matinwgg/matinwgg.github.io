@@ -1,12 +1,15 @@
 {
-  "name": "matin-odoom-portfolio",
-  "version": "2.0.0",
-  "private": true,
-  "description": "Personal portfolio of Abdul-Matin Odoom — full-stack software engineer and computer science researcher.",
+  "name": "wggfolioo",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "live-server ./",
-    "test": "node --check js/main.js && node --check js/widgets.js"
+     "start": "live-server ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "devDependencies": {
     "http-server": "^14.1.1",
     "live-server": "^1.2.2"
